@@ -1,0 +1,24 @@
+{
+  "name": "timneutkens/wp-cli-dbsync",
+  "license": "MIT",
+  "description": "Import database from remote host",
+  "keywords": [
+    "wp-cli",
+    "database"
+  ],
+  "authors": [
+    {
+      "name": "tim neutkens"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "wp-cli/wp-cli": "~0.22",
+    "x-team/wp-cli-ssh": "dev-master"
+  },
+  "autoload": {
+    "files": [
+      "dbsync-command.php"
+    ]
+  }
+}
