@@ -3,6 +3,10 @@
 use WP_CLI;
 use WP_CLI_Command;
 
+if ( ! defined( 'WP_CLI' ) ) {
+	return;
+}
+
 /**
  * Sync database using simple shell pipe
  */
