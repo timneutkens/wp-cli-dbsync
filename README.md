@@ -23,4 +23,9 @@ Now you can run the following command:
 
 `wp dbsync <host here>`
 
+The command will import the database. After that it will search replace the old home url to the new home url using `wp search-replace`.
+The new home url will be guessed using `wp option get home`.
+Beware that if you define `WP_HOME` this command will return that url instead of the url set in the `wp_options` table.
+Optionally you can provide `--new-base-url=http://example.com` to override this behaviour.
+
 Replace `<host here>` with the host you just setup in your `wp-cli.yml`/`wp-cli.local.yml`.
