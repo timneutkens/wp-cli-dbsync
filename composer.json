@@ -13,7 +13,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "wp-cli/wp-cli": "~0.22",
+    "wp-cli/wp-cli": "~1.5.1",
     "x-team/wp-cli-ssh": "dev-master"
   },
   "autoload": {
